@@ -15,4 +15,23 @@ html {
 
 body {
   font-family: sans-serif;
-  color: #343333; }
+  color: #343333;
+  background: linear-gradient(160deg, #b0d9e3, #f9f3cc);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center; }
+
+/* Dashboard */
+.dashboard {
+  height: 90%;
+  width: 95%;
+  background: #fff;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  box-shadow: 0 0.4rem 2rem 2px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 0.6fr 2fr 0.8fr; }
