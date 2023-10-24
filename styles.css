@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: sans-serif;
-  color: #343333;
+  color: #343333d7;
   background: linear-gradient(160deg, #b0d9e3, #f9f3cc);
   width: 100vw;
   height: 100vh;
@@ -35,3 +35,88 @@ body {
   box-shadow: 0 0.4rem 2rem 2px rgba(0, 0, 0, 0.5);
   display: grid;
   grid-template-columns: 0.6fr 2fr 0.8fr; }
+
+/* Seccion de colores */
+.btn {
+  display: inline-block;
+  width: max-content;
+  height: max-content;
+  text-decoration: none; }
+  .btn-student {
+    background: transparent;
+    border: 1px solid #9fd36f;
+    padding: 0.4rem 1rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    color: #9fd36f;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease; }
+    .btn-student:hover {
+      box-shadow: 0 2px 4px 2px #9fd36f4d; }
+    .btn-student:active {
+      box-shadow: 0 1px 2px 1px #9fd36f35; }
+
+/* Seccion de colores */
+.student {
+  padding: 3.4rem; }
+  .student__info {
+    display: flex;
+    align-items: center; }
+  .student__img div {
+    display: inline-block;
+    width: 12rem;
+    height: 12rem;
+    background: red;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem; }
+  .student__name {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-start;
+    margin-left: 1.8rem; }
+    .student__name .student__tooltip {
+      display: inline-block;
+      width: max-content;
+      height: max-content;
+      background: #d7e5ca;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      font-weight: 700;
+      margin-bottom: 0.6rem; }
+    .student__name .student__tittle {
+      font-size: 3rem;
+      margin-bottom: 0.6rem; }
+  .student__asignature:not(:first-of-type) {
+    margin-top: 1rem; }
+  .student__asignature:last-of-type {
+    margin-bottom: 1.4rem; }
+  .student__asignature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .student__asignature .student__description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      font-weight: 600;
+      font-size: 1.4rem;
+      vertical-align: middle;
+      color: #3433337f; }
+      .student__asignature .student__description span {
+        color: #343333d7; }
