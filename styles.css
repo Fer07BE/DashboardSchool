@@ -1,0 +1,18 @@
+/* Seccion de colores */
+::selection {
+  background: #d2e0fb;
+  color: #354f52; }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif;
+  color: #343333; }
