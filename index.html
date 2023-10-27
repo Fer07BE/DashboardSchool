@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -2268,7 +2272,87 @@
         </blockquote>
       </section>
       <!-- Section navegation -->
-      <section class="search"></section>
+      <section class="search">
+        <div>
+          <input type="email" maxlength="18" minlength="12" />
+          <span>Search</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </div>
+
+        <section class="recomendations">
+          <h2>Personal recommendations</h2>
+
+          <blockquote class="card">
+            <i class="bx bx-expand-horizontal card__icon"></i>
+            <article class="card__text">
+              <h3>High level</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+          </blockquote>
+
+          <blockquote class="card">
+            <i class="bx bx-paint-roll card__icon card__icon-designed"></i>
+            <article class="card__text">
+              <h3>Designed Full</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+          </blockquote>
+        </section>
+
+        <!-- History -->
+        <h2>History of progress</h2>
+
+        <blockquote class="history">
+          <section class="history__tittle">
+            <h3>Course Html</h3>
+            <p class="porcent">85% Completed</p>
+          </section>
+          <p class="history__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <section class="history__links">
+            <div></div>
+            <p>Active</p>
+            <a href="#" class="links">Go to course</a>
+          </section>
+        </blockquote>
+
+        <blockquote class="history">
+          <section class="history__tittle">
+            <h3>Course Javascript</h3>
+            <p class="porcent">100% Completed</p>
+          </section>
+          <p class="history__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <section class="history__links">
+            <div class="dot__js"></div>
+            <p>Cursed</p>
+            <a href="#" class="links">Go to course</a>
+          </section>
+        </blockquote>
+
+        <section class="links__search">
+          <a href="#" class="link link__administrator">Contact Support</a>
+
+          <a href="#" class="link link__administrator">Exit Profile</a>
+        </section>
+      </section>
     </main>
   </body>
 </html>
